@@ -1,0 +1,28 @@
+<head>
+    <title>Real-Time Q&amp;A</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"/>
+                    <span class="icon-bar"/>
+                    <span class="icon-bar"/>
+                </button>
+                <a class="navbar-brand" href="/">Real-Time Q&amp;A</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/myevents">My Events</a></li>
+                    <li><a href="#">Create</a></li>
+                    <li><a href="/events">Join</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="main" class="row">
+            {{> eventsList}}
+        </div>
+    </div>
+</body>
