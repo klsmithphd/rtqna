@@ -7,3 +7,7 @@ standard-app-packages
 insecure
 preserve-inputs
 bootstrap-3
+
+router
+page-js-ie-support
+HTML5-History-API
